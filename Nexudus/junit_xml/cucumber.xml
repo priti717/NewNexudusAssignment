@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="39.65">
+    <testcase classname="Product page" name="Add and delete a product from the products list" time="26.329">
+        <system-out><![CDATA[Given Login page is visible URL "https://dashboard.nexudus.com/billing/products".passed
+When Enter valid Email address "adrian+1004930927@nexudus.com"..............passed
+And Enter valid password "414HHK9dxg--Gj"...................................passed
+And Successful sign in......................................................passed
+And Add the Product and fill the details name "test1","Verify automation test is working for additional product." and "10" fields.passed
+And Delete added product....................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login page" name="Login unsuccessful in Nexudus website" time="6.632">
+        <system-out><![CDATA[Given Login page is visible URL "https://dashboard.nexudus.com/"............passed
+When Enter valid Email address "bad@example.com"............................passed
+And Enter valid password "badpassword"......................................passed
+And Click on Sign in........................................................passed
+Then close the driver.......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login page" name="Login successful in Nexudus website" time="6.311">
+        <system-out><![CDATA[Given Login page is visible URL "https://dashboard.nexudus.com/"............passed
+When Enter valid Email address "adrian+1004930927@nexudus.com"..............passed
+And Enter valid password "414HHK9dxg--Gj"...................................passed
+And Successful sign in......................................................passed
+Then close the driver.......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
